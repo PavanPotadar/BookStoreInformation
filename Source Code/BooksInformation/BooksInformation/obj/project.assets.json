@@ -2832,11 +2832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
+      "projectUniqueName": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
       "projectName": "BooksInformation",
-      "projectPath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
+      "projectPath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/obj/",
+      "outputPath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/apple/.nuget/NuGet/NuGet.Config"

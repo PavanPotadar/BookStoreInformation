@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Em3wD5seLOBRGYfrV+xbVQFgiUWWCMEwt14FDN0mE8uNnpAB34UV2XNk5RYGnMpDqfRmLkZwC7MsJQi/TxaH5Q==",
+  "dgSpecHash": "13GoW9aijtu3B+CXQOW4eWLdGmA9wt4FStEFizzbykHbwUwPBBuBPb6GDCV68S1Z4dQm0tH58Vf1XcvujkAj+w==",
   "success": true,
-  "projectFilePath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
+  "projectFilePath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj",
   "expectedPackageFiles": [
     "/Users/apple/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/Users/apple/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

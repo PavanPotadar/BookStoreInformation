@@ -26,3 +26,4 @@
 /Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
 /Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/obj/Debug/docker-compose.dcproj.CopyComplete
+/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

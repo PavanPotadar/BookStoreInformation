@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D6ED5B7B-3BA3-4671-871A-53B1B5889159}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BooksInformation/Dockerfile">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookInformation.IntegrationTest/BookInformation.IntegrationTest/Controller/BookAddControllerTest.cs">
     <Files>
       <File FileName="BooksInformation/Controllers/BooksController.cs" Line="16" Column="22" />
       <File FileName="BookInformation.IntegrationTest/BookInformation.IntegrationTest/HealthCheckest.cs" Line="16" Column="10" />
@@ -12,7 +12,13 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BooksInformation" expanded="True" selected="True" />
+          <Node name="BooksInformation" expanded="True">
+            <Node name="BookInformation.IntegrationTest" expanded="True">
+              <Node name="Controller" expanded="True">
+                <Node name="BookAddControllerTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -20,7 +26,11 @@
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="BooksInformation" expanded="True" />
+          <Node name="BooksInformation" expanded="True">
+            <Node name="BookInformation.IntegrationTest" expanded="True">
+              <Node name="BookInformation.IntegrationTest.Controller" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -32,8 +42,8 @@
   <MonoDevelop.Ide.ItemProperties.BooksInformation PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" line="20" column="1" />
-      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" line="20" column="1" />
+      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" line="20" column="1" />
+      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

@@ -9356,11 +9356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/BookInformation.IntegrationTest.csproj",
+      "projectUniqueName": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/BookInformation.IntegrationTest.csproj",
       "projectName": "BookInformation.IntegrationTest",
-      "projectPath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/BookInformation.IntegrationTest.csproj",
+      "projectPath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/BookInformation.IntegrationTest.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/obj/",
+      "outputPath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/apple/.nuget/NuGet/NuGet.Config"
@@ -9375,8 +9375,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj": {
-              "projectPath": "/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj"
+            "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj": {
+              "projectPath": "/Users/apple/Desktop/Ajmera Infotech/GIT/BookStoreInformation/Source Code/BooksInformation/BooksInformation/BooksInformation.csproj"
             }
           }
         }
