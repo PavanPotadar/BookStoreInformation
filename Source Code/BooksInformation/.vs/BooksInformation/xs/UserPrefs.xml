@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{D6ED5B7B-3BA3-4671-871A-53B1B5889159}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BooksInformation/Dockerfile">
+    <Files>
+      <File FileName="BooksInformation/Controllers/BooksController.cs" Line="16" Column="22" />
+      <File FileName="BookInformation.IntegrationTest/BookInformation.IntegrationTest/HealthCheckest.cs" Line="16" Column="10" />
+      <File FileName="BooksInformation/Program.cs" Line="48" Column="1" />
+      <File FileName="BookInformation.IntegrationTest/BookInformation.IntegrationTest/Controller/BooksControllerTest.cs" Line="39" Column="1" />
+      <File FileName="BookInformation.IntegrationTest/BookInformation.IntegrationTest/Controller/BookControllerWithIDTest.cs" Line="43" Column="111" />
+      <File FileName="BookInformation.IntegrationTest/BookInformation.IntegrationTest/Controller/BookAddControllerTest.cs" Line="38" Column="1" />
+      <File FileName="BooksInformation/Dockerfile" Line="10" Column="71" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BooksInformation" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BooksInformation" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BooksInformation PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/UnitTest1.cs" line="20" column="1" />
+      <Breakpoint file="/Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" relfile="BookInformation.IntegrationTest/BookInformation.IntegrationTest/GetBooks_ReturnOk().cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

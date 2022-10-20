@@ -1,0 +1,122 @@
+2022-10-19 01:59:58.315 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-19 01:59:58.438 +05:30 [DBG] Hosting starting
+2022-10-19 01:59:58.622 +05:30 [DBG] Using development certificate: CN=localhost (Thumbprint: C9DEBEA5BF49F8A34A9296B0E1F3AAEDE45BD1E5)
+2022-10-19 01:59:58.687 +05:30 [INF] Now listening on: https://localhost:7064
+2022-10-19 01:59:58.687 +05:30 [INF] Now listening on: http://localhost:5051
+2022-10-19 01:59:58.688 +05:30 [DBG] Loaded hosting startup assembly BooksInformation
+2022-10-19 01:59:58.688 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-19 01:59:58.688 +05:30 [INF] Hosting environment: Development
+2022-10-19 01:59:58.688 +05:30 [INF] Content root path: /Users/apple/Desktop/Ajmera Infotech/Source Code/BooksInformation/BooksInformation/
+2022-10-19 01:59:58.688 +05:30 [DBG] Hosting started
+2022-10-19 01:59:58.702 +05:30 [DBG] Connection id "0HMLH8U3B5CH5" accepted.
+2022-10-19 01:59:58.704 +05:30 [DBG] Connection id "0HMLH8U3B5CH5" started.
+2022-10-19 01:59:59.694 +05:30 [DBG] Connection id "0HMLH8U3B5CH5" received FIN.
+2022-10-19 01:59:59.717 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-10-19 01:59:59.775 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" accepted.
+2022-10-19 01:59:59.839 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" accepted.
+2022-10-19 01:59:59.839 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" started.
+2022-10-19 01:59:59.845 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" started.
+2022-10-19 01:59:59.856 +05:30 [DBG] Connection id "0HMLH8U3B5CH5" stopped.
+2022-10-19 01:59:59.867 +05:30 [DBG] Connection id "0HMLH8U3B5CH5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-10-19 01:59:59.943 +05:30 [DBG] Connection 0HMLH8U3B5CH6 established using the following protocol: "Tls12"
+2022-10-19 01:59:59.943 +05:30 [DBG] Connection 0HMLH8U3B5CH7 established using the following protocol: "Tls12"
+2022-10-19 02:00:00.046 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7064/swagger/index.html - -
+2022-10-19 02:00:00.048 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-19 02:00:00.072 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-19 02:00:00.072 +05:30 [DBG] Request did not match any endpoints
+2022-10-19 02:00:00.218 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" completed keep alive response.
+2022-10-19 02:00:00.222 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7064/swagger/index.html - - - 200 - text/html;charset=utf-8 179.4100ms
+2022-10-19 02:00:00.261 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7064/swagger/swagger-ui-bundle.js - -
+2022-10-19 02:00:00.262 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2022-10-19 02:00:00.262 +05:30 [DBG] Request did not match any endpoints
+2022-10-19 02:00:00.378 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-10-19 02:00:00.381 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" completed keep alive response.
+2022-10-19 02:00:00.381 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7064/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 119.8537ms
+2022-10-19 02:00:00.523 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7064/swagger/v1/swagger.json - -
+2022-10-19 02:00:00.523 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-19 02:00:00.523 +05:30 [DBG] Request did not match any endpoints
+2022-10-19 02:00:00.652 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" completed keep alive response.
+2022-10-19 02:00:00.652 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7064/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 129.3786ms
+2022-10-19 02:00:11.343 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7064/api/Books/sdsd - -
+2022-10-19 02:00:11.352 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Books/sdsd'
+2022-10-19 02:00:11.358 +05:30 [DBG] Endpoint 'BooksInformation.Controllers.BooksController.GetBook (BooksInformation)' with route pattern 'api/Books/{id}' is valid for the request path '/api/Books/sdsd'
+2022-10-19 02:00:11.359 +05:30 [DBG] Request matched endpoint 'BooksInformation.Controllers.BooksController.GetBook (BooksInformation)'
+2022-10-19 02:00:11.359 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-19 02:00:11.362 +05:30 [INF] Executing endpoint 'BooksInformation.Controllers.BooksController.GetBook (BooksInformation)'
+2022-10-19 02:00:11.397 +05:30 [INF] Route matched with {action = "GetBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[BooksInformation.Models.Book] GetBook(System.String) on controller BooksInformation.Controllers.BooksController (BooksInformation).
+2022-10-19 02:00:11.398 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-19 02:00:11.398 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-19 02:00:11.398 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-19 02:00:11.398 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-19 02:00:11.398 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-19 02:00:11.399 +05:30 [DBG] Executing controller factory for controller BooksInformation.Controllers.BooksController (BooksInformation)
+2022-10-19 02:00:11.400 +05:30 [DBG] Executed controller factory for controller BooksInformation.Controllers.BooksController (BooksInformation)
+2022-10-19 02:00:11.406 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.String' ...
+2022-10-19 02:00:11.408 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.String' using the name 'id' in request data ...
+2022-10-19 02:00:11.408 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.String'.
+2022-10-19 02:00:11.408 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.String'.
+2022-10-19 02:00:11.408 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.String' ...
+2022-10-19 02:00:11.413 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.String'.
+2022-10-19 02:00:11.416 +05:30 [INF] No Books found with the given ID sdsd
+2022-10-19 02:00:11.419 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-10-19 02:00:11.423 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2022-10-19 02:00:11.424 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-19 02:00:11.424 +05:30 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-10-19 02:00:11.425 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-10-19 02:00:11.425 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-10-19 02:00:11.433 +05:30 [INF] Executed action BooksInformation.Controllers.BooksController.GetBook (BooksInformation) in 29.6309ms
+2022-10-19 02:00:11.434 +05:30 [INF] Executed endpoint 'BooksInformation.Controllers.BooksController.GetBook (BooksInformation)'
+2022-10-19 02:00:11.434 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" completed keep alive response.
+2022-10-19 02:00:11.437 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7064/api/Books/sdsd - - - 404 - application/problem+json;+charset=utf-8 91.4197ms
+2022-10-19 02:01:31.969 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" received FIN.
+2022-10-19 02:01:32.003 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" sending FIN because: "The client closed the connection."
+2022-10-19 02:01:32.003 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" disconnecting.
+2022-10-19 02:01:32.005 +05:30 [DBG] Connection id "0HMLH8U3B5CH7" stopped.
+2022-10-19 02:01:50.323 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7064/api/Books application/json 62
+2022-10-19 02:01:50.323 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Books'
+2022-10-19 02:01:50.323 +05:30 [DBG] Endpoint 'BooksInformation.Controllers.BooksController.CreateNewBook (BooksInformation)' with route pattern 'api/Books' is valid for the request path '/api/Books'
+2022-10-19 02:01:50.323 +05:30 [DBG] Request matched endpoint 'BooksInformation.Controllers.BooksController.CreateNewBook (BooksInformation)'
+2022-10-19 02:01:50.323 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-19 02:01:50.323 +05:30 [INF] Executing endpoint 'BooksInformation.Controllers.BooksController.CreateNewBook (BooksInformation)'
+2022-10-19 02:01:50.325 +05:30 [INF] Route matched with {action = "CreateNewBook", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[BooksInformation.Models.Book] CreateNewBook(BooksInformation.Models.BookCreation) on controller BooksInformation.Controllers.BooksController (BooksInformation).
+2022-10-19 02:01:50.325 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-19 02:01:50.325 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-19 02:01:50.325 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-19 02:01:50.325 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-19 02:01:50.325 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-19 02:01:50.325 +05:30 [DBG] Executing controller factory for controller BooksInformation.Controllers.BooksController (BooksInformation)
+2022-10-19 02:01:50.325 +05:30 [DBG] Executed controller factory for controller BooksInformation.Controllers.BooksController (BooksInformation)
+2022-10-19 02:01:50.325 +05:30 [DBG] Attempting to bind parameter '_book' of type 'BooksInformation.Models.BookCreation' ...
+2022-10-19 02:01:50.326 +05:30 [DBG] Attempting to bind parameter '_book' of type 'BooksInformation.Models.BookCreation' using the name '' in request data ...
+2022-10-19 02:01:50.327 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-10-19 02:01:50.343 +05:30 [DBG] Connection id "0HMLH8U3B5CH6", Request id "0HMLH8U3B5CH6:00000006": started reading request body.
+2022-10-19 02:01:50.344 +05:30 [DBG] Connection id "0HMLH8U3B5CH6", Request id "0HMLH8U3B5CH6:00000006": done reading request body.
+2022-10-19 02:01:50.354 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'BooksInformation.Models.BookCreation'
+2022-10-19 02:01:50.355 +05:30 [DBG] Done attempting to bind parameter '_book' of type 'BooksInformation.Models.BookCreation'.
+2022-10-19 02:01:50.355 +05:30 [DBG] Done attempting to bind parameter '_book' of type 'BooksInformation.Models.BookCreation'.
+2022-10-19 02:01:50.355 +05:30 [DBG] Attempting to validate the bound parameter '_book' of type 'BooksInformation.Models.BookCreation' ...
+2022-10-19 02:01:50.357 +05:30 [DBG] Done attempting to validate the bound parameter '_book' of type 'BooksInformation.Models.BookCreation'.
+2022-10-19 02:01:50.357 +05:30 [INF] New Book Cretd successfully with Book Name  Test New Book, Book Author Test New Autod and the New ID 7c110251-9cf6-423f-97a8-ca02af56ac26.
+2022-10-19 02:01:50.359 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-10-19 02:01:50.359 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-10-19 02:01:50.359 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-19 02:01:50.359 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-19 02:01:50.359 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-19 02:01:50.359 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-19 02:01:50.359 +05:30 [INF] Executing CreatedAtRouteResult, writing value of type 'BooksInformation.Models.Book'.
+2022-10-19 02:01:50.377 +05:30 [DBG] Found the endpoints ["BooksInformation.Controllers.BooksController.GetBook (BooksInformation)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-10-19 02:01:50.387 +05:30 [DBG] Successfully processed template api/Books/{id} for BooksInformation.Controllers.BooksController.GetBook (BooksInformation) resulting in /api/Books/7c110251-9cf6-423f-97a8-ca02af56ac26 and 
+2022-10-19 02:01:50.388 +05:30 [DBG] Link generation succeeded for endpoints ["BooksInformation.Controllers.BooksController.GetBook (BooksInformation)"] with result /api/Books/7c110251-9cf6-423f-97a8-ca02af56ac26
+2022-10-19 02:01:50.389 +05:30 [INF] Executed action BooksInformation.Controllers.BooksController.CreateNewBook (BooksInformation) in 63.8981ms
+2022-10-19 02:01:50.389 +05:30 [INF] Executed endpoint 'BooksInformation.Controllers.BooksController.CreateNewBook (BooksInformation)'
+2022-10-19 02:01:50.389 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" completed keep alive response.
+2022-10-19 02:01:50.389 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7064/api/Books application/json 62 - 201 - application/json;+charset=utf-8 66.5122ms
+2022-10-19 02:07:32.686 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" received FIN.
+2022-10-19 02:07:32.735 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" disconnecting.
+2022-10-19 02:07:32.735 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" sending FIN because: "The client closed the connection."
+2022-10-19 02:07:32.736 +05:30 [DBG] Connection id "0HMLH8U3B5CH6" stopped.
